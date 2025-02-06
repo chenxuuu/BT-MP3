@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "76b10474-f891-40fe-a501-285bec290be5")
 	(paper "A4")
+	(title_block
+		(title "BT MP3 蓝牙MP3小板")
+		(date "2025-02-06")
+		(rev "001")
+		(company "chenxuuu")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
