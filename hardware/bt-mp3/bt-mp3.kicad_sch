@@ -3237,139 +3237,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Transistor_BJT:SS8050"
 			(pin_names
 				(offset 0) hide)
@@ -6006,6 +5873,333 @@
 				)
 			)
 		)
+		(symbol "chenxuuu_Library:SS-22F25-G050"
+			(pin_names
+				(offset 1.0142)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW?"
+				(at 0 12.1157 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS-22F25-G050"
+				(at 0 10.3377 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "chenxuuu_Module:MS-22C01-G010"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SS-22F25-G050_1_1"
+				(rectangle
+					(start -6.35 1.27)
+					(end 6.35 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -6.35) (xy -5.334 -6.096)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -6.35) (xy -4.826 -6.096)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -1.27) (xy -5.334 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -1.27) (xy -4.826 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy -0.254 -6.096)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy 0.254 -6.096)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0.254 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -6.35) (xy -5.08 -5.08) (xy 0 -5.08) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -1.27) (xy -5.08 -2.54) (xy 0 -2.54) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 270)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 270)
+					(length 3.81)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 90)
+					(length 3.81)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 3.81)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -12.7 90)
+					(length 3.81)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "chenxuuu_Library:Side_SWITCH_SW_3*6*3.5mm"
 			(pin_names
 				(offset 0) hide)
@@ -7148,6 +7342,12 @@
 		(uuid "402f509f-7f0d-4ab1-8e8d-4d88f59cc67a")
 	)
 	(junction
+		(at 24.13 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "445c771a-4c3b-4854-8377-445a6a6fcc2b")
+	)
+	(junction
 		(at 252.73 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7220,10 +7420,10 @@
 		(uuid "8afc8722-344e-4ab8-aeb2-e95125b76bd9")
 	)
 	(junction
-		(at 24.13 50.8)
+		(at 13.97 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9dfea32c-d55b-40ee-b454-3776b21aecf7")
+		(uuid "9b17a94a-ac8e-49bd-a81a-944cce5af315")
 	)
 	(junction
 		(at 135.89 184.15)
@@ -7238,16 +7438,16 @@
 		(uuid "acb518c0-cc31-4ca7-b7ca-e454c28c5297")
 	)
 	(junction
+		(at 20.32 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad022e00-4cb2-47ee-bf4a-0eb5abb02d9e")
+	)
+	(junction
 		(at 24.13 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8ce0ecb-01a6-4611-aa21-7c8952da49fe")
-	)
-	(junction
-		(at 13.97 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd464905-6c89-4a0a-848f-ae29bece1cad")
 	)
 	(junction
 		(at 246.38 25.4)
@@ -7260,6 +7460,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d664321b-df66-44e0-ae0f-12b32bbe489d")
+	)
+	(junction
+		(at 15.24 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da37a3a7-11be-4e0d-a32b-a5c5b49587cf")
 	)
 	(junction
 		(at 86.36 29.21)
@@ -7334,6 +7540,10 @@
 		(uuid "272966a0-e2de-4321-b192-f7d5c60a5e9d")
 	)
 	(no_connect
+		(at 25.4 76.2)
+		(uuid "2a567573-ab84-4748-bd05-bf6fbc7d84af")
+	)
+	(no_connect
 		(at 237.49 99.06)
 		(uuid "38bdbc6c-2999-4bd4-8c8d-1402c9592052")
 	)
@@ -7356,6 +7566,10 @@
 	(no_connect
 		(at 237.49 101.6)
 		(uuid "67211cea-7d37-4567-9fc2-71da5c04264f")
+	)
+	(no_connect
+		(at 25.4 58.42)
+		(uuid "7109d69c-7332-4eb1-b345-4b57988758c1")
 	)
 	(no_connect
 		(at 48.26 139.7)
@@ -7735,6 +7949,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 58.42) (xy 20.32 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3996c7a4-1168-41fc-93cf-68ec6c3bbd06")
+	)
+	(wire
+		(pts
 			(xy 90.17 152.4) (xy 93.98 152.4)
 		)
 		(stroke
@@ -7772,6 +7996,16 @@
 			(type default)
 		)
 		(uuid "3fafc2af-6d28-4a4b-814f-50c37c576359")
+	)
+	(wire
+		(pts
+			(xy 20.32 50.8) (xy 24.13 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff73509-595a-43f3-aff2-4bcbd7e5da3f")
 	)
 	(wire
 		(pts
@@ -8415,6 +8649,16 @@
 	)
 	(wire
 		(pts
+			(xy 15.24 50.8) (xy 15.24 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f26f07-139b-4071-b524-d3ec9967b90a")
+	)
+	(wire
+		(pts
 			(xy 48.26 124.46) (xy 57.15 124.46)
 		)
 		(stroke
@@ -8555,6 +8799,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 58.42) (xy 20.32 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af82b3f7-f0d6-4cf9-a0b7-88111907572e")
+	)
+	(wire
+		(pts
 			(xy 237.49 50.8) (xy 245.11 50.8)
 		)
 		(stroke
@@ -8572,6 +8826,26 @@
 			(type default)
 		)
 		(uuid "b2459f15-46de-430f-978d-0b9ce76a8682")
+	)
+	(wire
+		(pts
+			(xy 13.97 50.8) (xy 15.24 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b41e5040-ce9e-4c26-a1a4-e736a9955ace")
+	)
+	(wire
+		(pts
+			(xy 15.24 58.42) (xy 15.24 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b505f4eb-3c1d-46a8-b44a-c439c8e378ea")
 	)
 	(wire
 		(pts
@@ -9770,7 +10044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 245.4148 17.78 0)
 			(effects
 				(font
@@ -10312,7 +10586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 189.738 132.08 90)
 			(effects
 				(font
@@ -10445,7 +10719,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 242.57 23.622 90)
 			(effects
 				(font
@@ -10671,7 +10945,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PTSM-0,5-2-HV-2.5-SMD_1x02-1MP_P2.50mm_Vertical"
 			(at 101.6 29.21 0)
 			(effects
 				(font
@@ -11010,7 +11284,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 110.49 106.9848 0)
 			(effects
 				(font
@@ -11209,7 +11483,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 91.44 51.1048 0)
 			(effects
 				(font
@@ -11483,6 +11757,85 @@
 		)
 	)
 	(symbol
+		(lib_id "chenxuuu_Library:SS-22F25-G050")
+		(at 20.32 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20a7f5f4-2f6c-4e1e-ab39-e7ee1fc5649f")
+		(property "Reference" "SW6"
+			(at 21.082 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS-22F25-G050"
+			(at 20.32 53.1623 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "chenxuuu_Module:MS-22C01-G010"
+			(at 20.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 20.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c24f82e2-99ab-4d31-ad11-d8b91417ddef")
+		)
+		(pin "1"
+			(uuid "88b5b716-e52f-4866-8abe-9e1af220dddc")
+		)
+		(pin "3"
+			(uuid "f9f07a62-4e4b-4a97-b577-45346bbe1924")
+		)
+		(pin "5"
+			(uuid "162165d3-a4d1-4e36-a033-090e487fd3d5")
+		)
+		(pin "6"
+			(uuid "630826b3-43a5-4ad9-b5d1-2e06c418cc4a")
+		)
+		(pin "4"
+			(uuid "33eb4397-104a-4d65-b3cc-d1e852d3b99a")
+		)
+		(instances
+			(project ""
+				(path "/76b10474-f891-40fe-a501-285bec290be5"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 82.55 72.39 0)
 		(unit 1)
@@ -11574,7 +11927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 22.86 28.2448 0)
 			(effects
 				(font
@@ -11641,7 +11994,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 65.278 156.21 90)
 			(effects
 				(font
@@ -11708,7 +12061,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 179.578 132.08 90)
 			(effects
 				(font
@@ -11974,7 +12327,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 140.97 67.6148 0)
 			(effects
 				(font
@@ -12240,7 +12593,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 121.92 177.038 90)
 			(effects
 				(font
@@ -12373,7 +12726,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 139.7 169.418 90)
 			(effects
 				(font
@@ -12506,7 +12859,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 99.06 46.0248 0)
 			(effects
 				(font
@@ -12642,7 +12995,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 136.398 36.83 90)
 			(effects
 				(font
@@ -12687,6 +13040,7 @@
 	(symbol
 		(lib_id "power:+BATT")
 		(at 13.97 50.8 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12703,7 +13057,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 11.938 47.498 0)
+			(at 16.002 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12914,7 +13268,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 91.44 53.6448 0)
 			(effects
 				(font
@@ -12981,7 +13335,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 86.36 150.622 90)
 			(effects
 				(font
@@ -13311,7 +13665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 237.7948 17.78 0)
 			(effects
 				(font
@@ -13617,74 +13971,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 19.05 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6cca7720-4b27-4878-bea9-951d3692d5b9")
-		(property "Reference" "SW2"
-			(at 19.812 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 19.05 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "chenxuuu_Module:MSK-0002"
-			(at 19.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 19.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 19.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ede75322-c30e-4322-b499-acb1e97a8876")
-		)
-		(pin "2"
-			(uuid "580f0e24-8f92-405a-8a1d-a5d01490cd13")
-		)
-		(instances
-			(project ""
-				(path "/76b10474-f891-40fe-a501-285bec290be5"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 24.13 50.8 180)
 		(unit 1)
@@ -13840,7 +14126,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 91.44 38.4048 0)
 			(effects
 				(font
@@ -14037,7 +14323,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 55.88 116.078 90)
 			(effects
 				(font
@@ -14171,7 +14457,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 91.44 66.3448 0)
 			(effects
 				(font
@@ -14902,7 +15188,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 91.44 79.0448 0)
 			(effects
 				(font
@@ -15245,7 +15531,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 129.54 33.528 90)
 			(effects
 				(font
@@ -15385,7 +15671,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 55.88 115.062 90)
 			(effects
 				(font
@@ -15517,7 +15803,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 194.818 132.08 90)
 			(effects
 				(font
@@ -15918,7 +16204,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 91.44 56.1848 0)
 			(effects
 				(font
@@ -15985,7 +16271,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 101.6 71.4248 0)
 			(effects
 				(font
@@ -16250,7 +16536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 22.86 38.4048 0)
 			(effects
 				(font
@@ -17447,7 +17733,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 147.32 25.908 90)
 			(effects
 				(font
@@ -17514,7 +17800,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 184.658 132.08 90)
 			(effects
 				(font
@@ -17714,7 +18000,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 91.44 58.7248 0)
 			(effects
 				(font
@@ -17781,7 +18067,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 99.06 43.4848 0)
 			(effects
 				(font
@@ -17848,7 +18134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 91.44 61.2648 0)
 			(effects
 				(font
@@ -18253,7 +18539,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 101.6 73.9648 0)
 			(effects
 				(font
@@ -18922,7 +19208,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 128.778 180.34 90)
 			(effects
 				(font
